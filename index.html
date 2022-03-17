@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San J Motors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/vehicle-1a-hyundai.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>San J Motors</h1>
+            <p>We sell cars at the best prices. <br>Come and check us out.</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+
+    <!------Inventory------>
+    <section class="inventory">
+        <h1>INVENTORY</h1>
+        <p>Cars for sale; inventory list</p>
+
+        <div class="row">
+            <div class="inventory-col">
+                <h3>2019 Hyundai Accent</h3>
+                <p>Price, Mileage</p>
+            </div>
+            <div class="inventory-col">
+                <h3>2005 Mercedes E-Class</h3>
+                <p>Price, Mileage</p>
+            </div>
+            <div class="inventory-col">
+                <h3>2004 Honda Odessey</h3>
+                <p>Price, Mileage</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------Inventory Photos------>
+    <section class="inventoryPhotos">
+        <h1>INVENTORY PHOTOS</h1>
+        <p>The car photos</p>
+
+        <div class="row">
+            <div class="inventoryPhotos-col">
+                <img src="images/vehicle-1a-hyundai.png">
+                <div class="layer">
+                    <h3>HYUNDAI</h3>
+                </div>
+            </div>
+            <div class="inventoryPhotos-col">
+                <img src="images/vehicle-3a-mercedes.png">
+                <div class="layer">
+                    <h3>MERCEDES</h3>
+                </div>
+            </div>
+            <div class="inventoryPhotos-col">
+                <img src="images/vehicle-7a-honda.png">
+                <div class="layer">
+                    <h3>HONDA</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------ Services ------>
+    <section class="services">
+        <h1>Services</h1>
+        <p>Our services includes car trade-in and buying cars</p>
+
+        <div class="row">
+            <div class="services-col">
+                <img src="images/lot-street-view.png">
+                <h3>We buy Cars</h3>
+                <p>Bring your car and we'll buy it!</p>
+            </div>
+            <div class="services-col">
+                <img src="images/lot-street-view.png">
+                <h3>Trade-in</h3>
+                <p>Trade-in your vehicle</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------ Contact Us ------>
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <p>Look us up on Google Maps</p>
+
+        <div class="row">
+            <div class="contact-col">
+                <img src="images/lot-street-view.png">
+                <div>
+                   <h3> Phone Number &nbsp&nbsp<i class="fa fa-phone"> </i></h3>
+                   <p> 555-555-5555</p>
+                </div>
+            </div>
+            <div class="contact-col">
+                <img src="images/lot-google-maps.png">
+                <div>
+                    <h3> Google Maps &nbsp&nbsp <i class="fa fa-location-arrow"> </i> </h3>
+                    <p> 123 Main St. <br>San J, Ca <br> 92940</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!------Call to action------>
+    <section class="cta">
+        <h1>Get a test drive today!<br>Call us to schedule an appointment</h1>
+        <a href="" class="hero-btn">MAKE APPOINTMENT</a>
+    </section>
+
+
+    <!------ Footer ------>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We offer the best deals in town!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+            <p>Made by ValleyApps.com</p>
+        </div>
+    </section>
+
+        
+    <!------JavaScript for toggle menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0px"
+            console.log("hello");
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>

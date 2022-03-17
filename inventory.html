@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>San J Motors | Inventory</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/vehicle-1a-hyundai.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="inventory.html">Inventory</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+            <h1>Inventory</h1>
+
+        </section>
+
+        <!------Inventory------>
+        <section class="inventory-page">
+            <div class="row">
+                <div class="inventory-page-col">
+                    <h1>We have many cars for sale</h1>
+                    <p>There are a lot of cars for sale here. Come by and check
+                        it out. You will have many to choose from. Cehck today!
+                        We won't dissappoint. here are a lot of cars for sale here. Come by and check
+                        it out. You will have many to choose from. Cehck today!
+                        We won't dissappoint.
+                    </p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="inventory-page-col">
+                    <img src="images/vehicle-2a-toyota.png">
+                </div>
+            </div>
+        </section>
+
+
+        <!------Inventory Photos------>
+        <section class="inventoryPhotos">
+            <h1>INVENTORY PHOTOS</h1>
+            <p>The car photos</p>
+
+            <div class="row">
+                <div class="inventoryPhotos-col">
+                    <img src="images/vehicle-1a-hyundai.png">
+                    <div class="layer">
+                        <h3>HYUNDAI</h3>
+                    </div>
+                </div>
+                <div class="inventoryPhotos-col">
+                    <img src="images/vehicle-3a-mercedes.png">
+                    <div class="layer">
+                        <h3>MERCEDES</h3>
+                    </div>
+                </div>
+                <div class="inventoryPhotos-col">
+                    <img src="images/vehicle-7a-honda.png">
+                    <div class="layer">
+                        <h3>HONDA</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!------ Footer ------>
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We offer the best deals in town We offer the best deals in townWe offer the best deals in townWe offer the best deals in townWe offer the best deals in townWe offer the best deals in townWe offer the best deals in townWe offer the best deals in townWe offer the best deals in town!</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-youtube"></i>
+                <p>Made by ValleyApps.com</p>
+            </div>
+        </section>
+
+            
+        <!------JavaScript for toggle menu------>
+        <script>
+            var navLinks = document.getElementById("navLinks")
+
+            function showMenu() {
+                navLinks.style.right = "0px"
+                console.log("hello");
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>
